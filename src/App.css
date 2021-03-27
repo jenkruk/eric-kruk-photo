@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pages{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+/* NAVBAR  */
+
+.navbar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    background-color: rgba(285, 285, 285, 0.8);
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    max-width: 1500px;
+}
+
+.nav-logo {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    margin-left: 3vw;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 4rem;
+    flex-grow: 1;
+    color: #000;
+    padding: .3rem;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 3vw;
+    font-size: 1rem;
+}
+
+.nav-links {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    line-height: 40px;
+    margin-right: 1rem;
+}
+
+.nav-links:hover {
+    /* color: black; */
+    text-decoration: underline overline;
+    text-underline-position: under;
+}
+
+.nav-item .active {
+    text-decoration: underline overline;
+    text-underline-position: under;
+}
+/* MAIN PAGE  */
+
+.splash-container {
+    position: absolute;
+    top: 0 !important;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://previews.dropbox.com/p/thumb/ABHQ_hqyjL9x0W3nT4mw6GH0aY25uuZujPxj_CTcoGhzL5la8x43ImEjQB6bNRKlOMfG6DqP42ZSM3MScJO13czepJFoEGupzlTqjHWiALY54_qz06Izq6353MSkfwvZd0V4J1bIfuvefCx9cn-DR0oRDe9O71r9-XTcYGXAH5r0RpCWAItQNHa89nX06vl7oYstP4OZ5dN8U9Nkmfy7nby64QCBy32CnU7qoqpzpZjE-kLQNZfEP-cnCDlP6z06n89MciKvN6bW4jund8Wpn2OdAZzSpd9dqqZ0tXei-Ncy1S4j9GtiI4t8o827wVeHAmTMx1gdiStrfD_l5uXIkcBNbEQkPptqZKEHlepM0A9gMgGASNe9eAb7_FYjEiyj19TqLavzbbQGXvjzJMNYtVremIbC99U4EDgn7aPjNv479w/p.jpeg?fv_content=true&size_mode=5");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
