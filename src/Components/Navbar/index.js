@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+
+const [click, setClick]=useState(false);
+
+const handleClick = () => setClick(!click);
 
     return (
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink data-testid="nav-logo" exact to="/" activeClassName="active" className="nav-logo">
+          <NavLink data-testid="nav-logo" exact to="/" activeClassName="active" className="nav-logo bg_slider">
             Eric Kruk
           </NavLink>
           <ul className="nav-menu">
@@ -27,6 +31,8 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
+          <div className="nav-icon" onClick={ handleClick }>
+          </div>
         </div>
       </nav>
     </>
