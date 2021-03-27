@@ -3,12 +3,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 .pages{
-    text-align: center;
-    font-size: 3.5rem;
-    padding-top: 20vh;
+    padding: 5rem;
 }
 
 /* NAVBAR  */
@@ -119,4 +118,72 @@
     background-image: url("https://previews.dropbox.com/p/thumb/ABHQ_hqyjL9x0W3nT4mw6GH0aY25uuZujPxj_CTcoGhzL5la8x43ImEjQB6bNRKlOMfG6DqP42ZSM3MScJO13czepJFoEGupzlTqjHWiALY54_qz06Izq6353MSkfwvZd0V4J1bIfuvefCx9cn-DR0oRDe9O71r9-XTcYGXAH5r0RpCWAItQNHa89nX06vl7oYstP4OZ5dN8U9Nkmfy7nby64QCBy32CnU7qoqpzpZjE-kLQNZfEP-cnCDlP6z06n89MciKvN6bW4jund8Wpn2OdAZzSpd9dqqZ0tXei-Ncy1S4j9GtiI4t8o827wVeHAmTMx1gdiStrfD_l5uXIkcBNbEQkPptqZKEHlepM0A9gMgGASNe9eAb7_FYjEiyj19TqLavzbbQGXvjzJMNYtVremIbC99U4EDgn7aPjNv479w/p.jpeg?fv_content=true&size_mode=5");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+
+/* ABOUT PAGE  */
+.aboutRow {
+    display: flex;
+    justify-content: center;
+}
+.aboutImg {
+    width: 500px;
+    height: 300px;
+    background-image: url("https://previews.dropbox.com/p/thumb/ABEzQlFublcGcEvA5HrTDxulZUKKcmgbgglJH2AJyys7N7Tdu1doCNz32bUe7FYwjaEWBs0t6YV5ydz4FhBwZ2T8FzmE0MHUYAGIZzQ3v2WErOgRofRpK9YMBANRJHm8KBDXF7byjyXGVwLqiBYMmheBQqKmOhNgPAG6ggABhMAbKSABtlep9t965wvkPaA2OZr_lQIYSPW3tkctIiCqcDXAp3KP5Xp3NphQfkI1OtCsRdO5LlluH22YmMSiPPo4uzpQP-yfv-Ddt5xOe2Bs_xKAUNOknu3vlEIZHiF7699OwVoL9zH7MJ6XKbbWuL1E1lLSyLS9rA_Rtgz5tRn7D_w8AwA72pSWlT-EnLdQKxEPdoQvHNLzfHbi8fXYDeWC8R9DjqwKEaoZSoAEG-BE56HH-vewb6hsAhLdJ-71Ww-G3Xo6P4vy57Kk0e1UE0T73iQbTJ8jrKpuykvRLOygOyQzW_mdocR0r5WoSkZS4loRbXelh17eu445Dh1uf3-LjBBeFw010lJKZg9LxJQAMVTGq50yksKDi9U9I5YO-0Y17QY4RZdcqCUKSE5xTYTIIVd2q6inQ5DoLPiUar14kYnWafTOqmR83FXiEYwTByphrOtvMj5jA4mUCNkXev2VG6Jxhzc6CMYPzK81vS9eeuSGFmPEefBleaOqFz-DWqAubkoQG8FUP_u8ZUsa-wSg6AYuYqOztA_6CceET5j4od0lhj-TrBpxONCkztFlu-wkGQ/p.jpeg?size=2048x1536&size_mode=3");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline;
+}
+
+.paragraph {
+    display: inline;
+    width: 40vw;
+    padding-left: 5vw;
+    text-align: justify;
+    line-height: 22px;
+}
+
+
+
+.publishedRow {
+    display: flex;
+    padding: 2vh 5vw 0 5vw;
+    justify-content: space-around;
+    
+}
+
+.published {
+    font-size: 1.5rem;
+    padding: 3vh 0 0 2.75vw;
+    margin: 5vh 0 0 5vw;
+    text-transform: uppercase;
+}
+
+.luxe {
+    max-width: 212px;
+    text-align: center;
+    cursor: pointer;
+    padding: .5rem;
+    border: 2px solid rgb(119, 119, 119);
+    /* border-radius: 5px; */
+    transition: all .8s ease-in-out;
+}
+
+.luxe:hover {
+    transform:scaleY(1.25);
+    transform:scaleX(1);
+
+}
+
+#luxeLink {
+    color: black;
+    padding-bottom: 3vh;
+    text-decoration: none;
+}
+
+
+.luxeThumbnail {
+    width: 200px;
+    height: auto;
+    margin-top: 1vh;
 }
