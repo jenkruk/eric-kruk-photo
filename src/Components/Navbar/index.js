@@ -11,8 +11,8 @@ const handleClick = () => setClick(!click);
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink data-testid="nav-logo" exact to="/" activeClassName="active" className="nav-logo bg_slider">
-            Eric Kruk
+          <NavLink data-testid="nav-logo" exact to="/" activeClassName="active" className="nav-logo">
+            ERIC KRUK
           </NavLink>
           <ul className="nav-menu">
             <li className="nav-item">
