@@ -7,10 +7,6 @@
     --black: rgb(52, 58, 64);
 }
 
-.pages{
-    padding: 2rem 5rem 5rem 5rem;
-}
-
 /* ------------------------------------  NAVBAR ------------------------------------  */
 
 .navbar {
@@ -136,6 +132,10 @@
     background-repeat: no-repeat;
 }
 
+/* ------------------------------------  PORTFOLIO PAGE ------------------------------------ */
+
+
+
 
 /* ------------------------------------  ABOUT PAGE ------------------------------------ */
 
@@ -174,7 +174,7 @@
 
 .publishedRow {
     display: flex;
-    padding: 2vh 0 0 0;
+    padding: 2vh 0 5vh 0;
     /* justify-content: space-around; */
     justify-content: center;
     
@@ -194,15 +194,15 @@
     cursor: pointer;
     margin-top: 2vh;
     padding: 2vh .5rem;
-    border: 1.75px solid var(--black);
-    transition: all .8s ease-in-out;
+    border: 2px solid darkslategrey;
+    transition: all .3s ease-in-out;
     margin: 0 1.2vw;
+    /* background-color: white; */
+    /* border-radius: 5px; */
 }
 
 /* .luxe:hover {
-    transform:scaleY(1.25);
-    transform:scaleX(1);
-
+    background-color: white;
 } */
 
 #luxeLink {
@@ -229,7 +229,7 @@
 }
 
 .contactPage {
-    padding-top: 20vh;
+    padding-top: 18vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -326,4 +326,47 @@ form {
 
 .message-area {
     height: 150px;
+  }
+
+  /* ------------------------------------  FOOTER ------------------------------------ */
+
+  .main-copyright {
+      /* position: sticky; */
+      transform: rotate(-90.0deg);
+      font-size: .8rem;
+      text-align: center;
+      color: var(--black);
+      position: fixed;
+      bottom: 50vh;
+      left: 70vw;
+      right: -26vw;
+      /* padding-top: 35vw; */
+      /* margin-right: 50vw; */
+      /* background: purple; */
+  }
+
+.contact-copyright {
+    font-size: .8rem;
+    width: 100vw;
+    text-align: center;
+    color: black;
+    height: 60px;
+    padding-top: 5vh;
+    position: absolute;
+    bottom: 0;
+}
+
+.about-copyright {
+    font-size: .8rem;
+    width: 100vw;
+    text-align: center;
+    color: black;
+    height: 60px;
+    padding-top: 5vh;
+    position: relative;
+    bottom: 0;
+}
+
+  .propertyof {
+      margin-top: 1vh;
   }

@@ -46,6 +46,14 @@ export const About = () => {
                 </a>
                 </div>
             </div>
+            <div className="about-copyright">
+            <div className="row">
+                All images property of Eric Kruk | Copyright &copy;{new Date().getFullYear()} | All Rights Reserved
+            </div>
+            <div className="propertyof row">
+                Use of any images without the photographer's explicit permission is strictly prohibited.
+            </div>
+        </div>
         </div>
     )
 }
