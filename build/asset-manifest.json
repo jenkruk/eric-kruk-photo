@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/eric-kruk-photo/static/css/main.55028a31.chunk.css",
+    "main.js": "/eric-kruk-photo/static/js/main.ff408420.chunk.js",
+    "main.js.map": "/eric-kruk-photo/static/js/main.ff408420.chunk.js.map",
+    "runtime-main.js": "/eric-kruk-photo/static/js/runtime-main.6226e46e.js",
+    "runtime-main.js.map": "/eric-kruk-photo/static/js/runtime-main.6226e46e.js.map",
+    "static/js/2.3285343f.chunk.js": "/eric-kruk-photo/static/js/2.3285343f.chunk.js",
+    "static/js/2.3285343f.chunk.js.map": "/eric-kruk-photo/static/js/2.3285343f.chunk.js.map",
+    "static/js/3.131076ed.chunk.js": "/eric-kruk-photo/static/js/3.131076ed.chunk.js",
+    "static/js/3.131076ed.chunk.js.map": "/eric-kruk-photo/static/js/3.131076ed.chunk.js.map",
+    "index.html": "/eric-kruk-photo/index.html",
+    "static/css/main.55028a31.chunk.css.map": "/eric-kruk-photo/static/css/main.55028a31.chunk.css.map",
+    "static/js/2.3285343f.chunk.js.LICENSE.txt": "/eric-kruk-photo/static/js/2.3285343f.chunk.js.LICENSE.txt",
+    "static/media/about-photo.651d6037.jpeg": "/eric-kruk-photo/static/media/about-photo.651d6037.jpeg",
+    "static/media/diningdetail.8c3f7e51.jpg": "/eric-kruk-photo/static/media/diningdetail.8c3f7e51.jpg",
+    "static/media/diningdetail2proof.b400f182.jpg": "/eric-kruk-photo/static/media/diningdetail2proof.b400f182.jpg",
+    "static/media/diningkitchenoverviewproof.401a7193.jpg": "/eric-kruk-photo/static/media/diningkitchenoverviewproof.401a7193.jpg",
+    "static/media/kitchen2proof.c4ad50f2.jpg": "/eric-kruk-photo/static/media/kitchen2proof.c4ad50f2.jpg",
+    "static/media/kitchen4.d3e817e7.jpg": "/eric-kruk-photo/static/media/kitchen4.d3e817e7.jpg",
+    "static/media/laundrydetail2proof.cfd49e4a.jpg": "/eric-kruk-photo/static/media/laundrydetail2proof.cfd49e4a.jpg",
+    "static/media/livingroom3proof.e91b576d.jpg": "/eric-kruk-photo/static/media/livingroom3proof.e91b576d.jpg",
+    "static/media/loft1.7147e989.jpg": "/eric-kruk-photo/static/media/loft1.7147e989.jpg",
+    "static/media/loftview.60477ede.jpg": "/eric-kruk-photo/static/media/loftview.60477ede.jpg",
+    "static/media/App.css": "/eric-kruk-photo/static/media/main-photo.75f4a8d7.png",
+    "static/media/mainliving1.41ec9f87.jpg": "/eric-kruk-photo/static/media/mainliving1.41ec9f87.jpg",
+    "static/media/powderroomdetail.fd006b78.jpg": "/eric-kruk-photo/static/media/powderroomdetail.fd006b78.jpg",
+    "static/media/primarybedroom1proof.af66d7c8.jpg": "/eric-kruk-photo/static/media/primarybedroom1proof.af66d7c8.jpg",
+    "static/media/primarybedroom3.7f443605.jpg": "/eric-kruk-photo/static/media/primarybedroom3.7f443605.jpg",
+    "static/media/primarybedroomdetail1.144fad34.jpg": "/eric-kruk-photo/static/media/primarybedroomdetail1.144fad34.jpg",
+    "static/media/sparebathroom3.c1c91e24.jpg": "/eric-kruk-photo/static/media/sparebathroom3.c1c91e24.jpg",
+    "static/media/sparebedroom2proof.7739a2c9.jpg": "/eric-kruk-photo/static/media/sparebedroom2proof.7739a2c9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6226e46e.js",
+    "static/js/2.3285343f.chunk.js",
+    "static/css/main.55028a31.chunk.css",
+    "static/js/main.ff408420.chunk.js"
+  ]
+}
