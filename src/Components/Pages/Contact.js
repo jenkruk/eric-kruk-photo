@@ -41,17 +41,17 @@ export const Contact = () => {
                 {/* <div className="success-message text-muted font-italic">{successMessage}</div> */}
                 <div className="left-row">
                     <div id="name"> Eric Kruk </div>
-                    <div id="email">tcenterprise@hotmail.com </div>
+                    <div id="email">erickrukphoto@gmail.com </div>
                     <div className="row" id="instagram">
                         <div>Instagram</div>
                         <a href="https://www.instagram.com/erickrukphoto/" target="_blank" rel="noreferrer" >
-                            <i class="fab fa-instagram fa-2x icon"></i>
+                            <i className="fab fa-instagram fa-2x icon"></i>
                         </a>
                     </div>
                 </div>
                 <div className="contactTitle">Contact Form</div>
                 <br/>
-            <form  autocomplete="off" onSubmit={handleSubmit(onSubmit)}>
+            <form  autoComplete="off" onSubmit={handleSubmit(onSubmit)}>
                 <div className="contactRow">
                     {/* NAME INPUT  */}
                     {/* <span className="error-message"> 
